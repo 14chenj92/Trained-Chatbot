@@ -33,7 +33,7 @@ def respond(user_message):
 
 # Create the main window
 root = tk.Tk()
-root.title("Rasa Chatbot")
+root.title("Chatbot")
 
 # Create the chat area
 chat_area = scrolledtext.ScrolledText(root, wrap=tk.WORD, state='disabled')
