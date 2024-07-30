@@ -3,9 +3,11 @@ Trained Python ChatBot using Tkinter and Rasa
 ## Libraries
 * pip install tkinter
 * pip install rasa
+* pip install imports
 
 ## Rasa Install Instructions
 * switch to python 3.8
+* pip install --upgrade pip
 * pip install spacy[universal] (optional?)
 * pip install rasa
 * rasa init (creates and trains default chatbot)

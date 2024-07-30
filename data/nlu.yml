@@ -89,3 +89,16 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    
+- intent: how_are_you
+  examples: |
+    - How are you?
+    - How are you doing?
+    - What's up?
+
+- intent: get_stock
+  examples: |
+    - What is the price of [AAPL](stock_symbol)?
+    - Give me the stock details for [GOOGL](stock_symbol)
+    - Show me the stock information for [AMZN](stock_symbol)
+    - Get me the details for [TSLA](stock_symbol)

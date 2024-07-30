@@ -8,26 +8,43 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - how_are_you
+  - get_stock
+
+entities:
+  - stock_symbol
+
+actions:
+  - action_get_stock
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
+
+  utter_how_are_you:
+    - text: "I'm doing terrible, thank you!"
+
+  utter_ask_stock_symbol:
+    - text: "Please provide the stock symbol."
+
+  utter_stock_info:
+    - text: "Here is the information for {stock_symbol}: {stock_info}"
 
 session_config:
   session_expiration_time: 60
